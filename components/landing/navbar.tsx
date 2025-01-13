@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
-import { Moon, Sun, Laptop, Menu } from "lucide-react";
+import { Moon, Sun, Laptop, Menu, Github } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -37,6 +37,14 @@ export function LandingNavbar() {
         </div>
         
         <div className="flex items-center gap-4">
+          <Link
+            href="https://github.com/quick-start-ai-saas/quick-start-ai-saas-template"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:opacity-75 transition"
+          >
+            <Github className="h-6 w-6" />
+          </Link>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" size="icon">

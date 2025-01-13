@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "gh-pages -d out -b gh-pages --repo git@github_my_fz00x0fz:fz00x0fz/quick-saas-landing-page.git",
+    "deploy": "gh-pages -d out -b gh-pages --repo git@github_my_fz00x0fz:quick-start-ai-saas/quick-start-ai-saas-template.git",
     "start": "next start",
     "lint": "next lint"
   },
